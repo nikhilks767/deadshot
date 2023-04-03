@@ -1,0 +1,11 @@
+echo "Enter two numbers"
+read a
+read b
+s=`expr $a + $b`
+echo "Sum= $s"
+d=`expr $a - $b`
+echo "Difference= $d"
+m=`expr $a \* $b`
+echo "Product= $m"
+e=`expr $a / $b`
+echo "Division= $e"

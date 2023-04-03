@@ -1,0 +1,9 @@
+echo "Enter two numbers"
+read a
+read b
+if [ $a -gt $b ]
+then
+echo "Largest= $a"
+else
+echo "Largest= $b"
+fi
